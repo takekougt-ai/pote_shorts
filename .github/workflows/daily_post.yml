@@ -2,9 +2,9 @@ name: Daily Shorts Auto-Post
 
 on:
   schedule:
-    # 21:00 UTC = 06:00 JST. Adjust to taste; GitHub Actions cron may fire a
+    # 22:00 UTC = 07:00 JST. Adjust to taste; GitHub Actions cron may fire a
     # few minutes late during high load.
-    - cron: "0 21 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch: {}
 
 permissions:
