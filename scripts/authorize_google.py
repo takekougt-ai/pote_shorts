@@ -74,7 +74,7 @@ def main() -> None:
         }
     }
     flow = Flow.from_client_config(client_config, scopes=SCOPES_BY_TARGET[args.target], redirect_uri=REDIRECT_URI)
-    auth_url, _ = flow.authorization_url(access_type="offline", prompt="consent", include_granted_scopes="true")
+    auth_url, _ = flow.authorization_url(access_type="offline", prompt="consent")
 
     print(f"\n[{args.target}] Open this URL in your browser and approve access:\n")
     print(auth_url)
