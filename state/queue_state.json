@@ -29,7 +29,14 @@
     "1_NmTRjn0mFxnXBq5p-FT8vR0X7MUH-jc"
   ],
   "cursor": 8,
-  "pending": null,
+  "pending": {
+    "file_id": "1kl5kKgwymxEQ1LzPwk4nXc7hhfh-ejPq",
+    "file_name": "potepote_happylife_7608901839345487122.mp4",
+    "youtube_done": false,
+    "tiktok_done": false,
+    "youtube_video_id": null,
+    "tiktok_publish_id": null
+  },
   "history": [
     {
       "posted_at": "2026-08-20T12:57:25.864488+00:00",
